@@ -151,7 +151,7 @@ namespace MetroFramework.Controls
             base.WndProc(ref m);
 
             // AFAIK, OCM_MESSAGES is MFC-specific. The WM_PAINT is already handled by us.
-            const int OCM_COMMAND = WinApi.Messages.OCM__BASE + WinApi.Messages.WM_COMMAND;
+            //const int OCM_COMMAND = WinApi.Messages.OCM__BASE + WinApi.Messages.WM_COMMAND;//??
             //if (((m.Msg == WinApi.Messages.WM_PAINT) || (m.Msg == OCM_COMMAND)) && (drawPrompt))
             //{
             //    DrawTextPrompt();

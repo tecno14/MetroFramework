@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MetroPanelDesigner.cs" />
-    <Compile Include="MetroRadioButtonDesigner.cs" />
     <Compile Include="MetroCheckBoxDesigner.cs" />
+    <Compile Include="MetroRadioButtonDesigner.cs" />
     <Compile Include="MetroToggleDesigner.cs" />
     <Compile Include="MetroSelectableLabelDesigner.cs" />
     <Compile Include="MetroButtonDesigner.cs" />
